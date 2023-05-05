@@ -26,7 +26,7 @@ export const Experience = [
     date: "2018 - 2019",
     iconsSrc: <IoCodeWorking />,
     title: "12th",
-    location: "Prabhu Dayal Public School, Delhi",
+    location: "Prabhu Dayal Public School , Delhi",
     description:
       "Percentage : 70.4 ",
   },
