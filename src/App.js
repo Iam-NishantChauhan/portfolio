@@ -17,7 +17,9 @@ function App() {
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
         <nav className="w-full px-6 z-50  fixed inset-x-0 top-2 flex justify-center items-center ">
           <div className=" w-full md:w-880 bg-navBar p-4 rounded-2xl flex items-center">
-            <p className="text-lg text-slate-200 font-medium">Nishant Chauhan</p>
+            <p className="text-lg text-slate-200 font-medium">
+              Nishant Chauhan
+            </p>
 
             <div className="hidden md:flex items-center gap-6 ml-6 flex-1">
               <a
@@ -45,7 +47,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/170XCxt6yjQtzwgQIK44FB_XqquyU4V1P/view?usp=share_link"
+                href="https://drive.google.com/file/d/1l7y0kGVKxoJE_1JDI8Pu8uTror9vlmO5/view?usp=share_link"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Download
@@ -96,7 +98,7 @@ function App() {
                   Contact
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/170XCxt6yjQtzwgQIK44FB_XqquyU4V1P/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1l7y0kGVKxoJE_1JDI8Pu8uTror9vlmO5/view?usp=share_link"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
@@ -132,11 +134,13 @@ function App() {
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ">
               <p className="text-lg text-textBase text-center">
-              Hi! I am Nishant Chauhan final year student of B.Tech in Computer Science Engineering.
-               I am an enthusiastic, self-motivated, reliable, responsible and hard working person.
-               I am a mature team worker and adaptable to all challenging situations.
-                I am able to work well both in a team environment as well as using own initiative.
-                 I am able to work well under pressure and adhere to strict deadlines.
+                Hi! I am Nishant Chauhan final year student of B.Tech in
+                Computer Science Engineering. I am an enthusiastic,
+                self-motivated, reliable, responsible and hard working person. I
+                am a mature team worker and adaptable to all challenging
+                situations. I am able to work well both in a team environment as
+                well as using own initiative. I am able to work well under
+                pressure and adhere to strict deadlines.
               </p>
 
               <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
