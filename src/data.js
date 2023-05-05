@@ -9,6 +9,7 @@ import {
 import img1 from "./images/1.png";
 import img2 from "./images/2.png";
 import img3 from "./images/3.png";
+import img4 from "./images/4.png";
 
 export const Experience = [
   {
@@ -62,6 +63,13 @@ export const Projects = [
     imageSrc: img3,
     techs: "React Js, CSS",
     github: "https://github.com/Iam-NishantChauhan/e-commerce-cart",
+  },
+  {
+    id: 4,
+    name: "Image Viewer",
+    imageSrc: img4,
+    techs: "React Js, CSS",
+    github: "https://github.com/Iam-NishantChauhan/image-viewer",
   },
 ];
 
