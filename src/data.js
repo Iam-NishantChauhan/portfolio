@@ -17,9 +17,9 @@ export const Experience = [
     date: "2019 - present",
     iconsSrc: <IoCodeWorking />,
     title: "B.Tech",
-    location: "Guru Govind Singh Indraprastha University",
+    location: "Guru Gobind Singh Indraprastha University",
     description:
-      "CGPA : 8.9 till 6th Sem",
+      "CGPA : 8.74",
   },
   {
     id: 2,
@@ -45,17 +45,17 @@ export const Experience = [
 export const Projects = [
   {
     id: 1,
+    name: "Pin Your Mood",
+    imageSrc: img2,
+    techs: "ReactJs, Javascript, Tailwind CSS",
+    github: "https://github.com/Iam-NishantChauhan/MajorProject",
+  },
+  {
+    id: 2,
     name: "Instagram Clone",
     imageSrc: img1,
     techs: "React Js, Sass CSS",
     github: "https://github.com/Iam-NishantChauhan/instgram-clone",
-  },
-  {
-    id: 2,
-    name: "GK Quiz App",
-    imageSrc: img2,
-    techs: "HTML, CSS, Javascript",
-    github: "https://github.com/Iam-NishantChauhan/GK-Quiz",
   },
   {
     id: 3,

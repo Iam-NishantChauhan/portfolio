@@ -134,7 +134,7 @@ function App() {
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ">
               <p className="text-lg text-textBase text-center">
-                Hi! I am Nishant Chauhan final year student of B.Tech in
+                Hi! I am Nishant Chauhan completed my B.Tech in
                 Computer Science Engineering. I am an enthusiastic,
                 self-motivated, reliable, responsible and hard working person. I
                 am a mature team worker and adaptable to all challenging
