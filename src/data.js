@@ -14,7 +14,7 @@ import img4 from "./images/4.png";
 export const Experience = [
   {
     id: 1,
-    date: "2019 - present",
+    date: "2019 - 2023",
     iconsSrc: <IoCodeWorking />,
     title: "B.Tech",
     location: "Guru Gobind Singh Indraprastha University",
