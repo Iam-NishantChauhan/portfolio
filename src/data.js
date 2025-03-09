@@ -14,7 +14,16 @@ import img4 from "./images/4.png";
 export const Experience = [
   {
     id: 1,
-    date: "2019 - present",
+    date: "2024 - present",
+    iconsSrc: <IoCodeWorking />,
+    title: "Associate Software Engineer",
+    location: "Accenture",
+    description:
+      "Tech Stack : Azure Devops, .Net, C#, React.js, PostgresSQL",
+  },
+  {
+    id: 2,
+    date: "2019 - 2023",
     iconsSrc: <IoCodeWorking />,
     title: "B.Tech",
     location: "Guru Gobind Singh Indraprastha University",
@@ -22,7 +31,7 @@ export const Experience = [
       "CGPA : 8.74",
   },
   {
-    id: 2,
+    id: 3,
     date: "2018 - 2019",
     iconsSrc: <IoCodeWorking />,
     title: "12th",
@@ -31,7 +40,7 @@ export const Experience = [
       "Percentage : 70.4 ",
   },
   {
-    id: 3,
+    id: 4,
     date: "2016 - 2017",
     iconsSrc: <IoCodeWorking />,
     title: "10th",
