@@ -134,13 +134,19 @@ function App() {
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ">
               <p className="text-lg text-textBase text-center">
-                Hi! I am Nishant Chauhan completed my B.Tech in
-                Computer Science Engineering. I am an enthusiastic,
-                self-motivated, reliable, responsible and hard working person. I
-                am a mature team worker and adaptable to all challenging
-                situations. I am able to work well both in a team environment as
-                well as using own initiative. I am able to work well under
-                pressure and adhere to strict deadlines.
+              Hi! I am Nishant Chauhan, a Software Engineer with 1+ years of experience in full-stack development, 
+              DevOps, and cloud infrastructure. I specialize in designing and optimizing scalable web applications, 
+              microservices, and system integrations to enhance performance, security, and maintainability.
+              I have hands-on experience with CI/CD pipelines, cloud deployments, API development, and database 
+              optimization, ensuring seamless software delivery and high availability. Skilled in frontend and
+              backend development, I build responsive user interfaces, efficient backend services, and automated 
+              workflows to improve system efficiency.
+             <ul> 
+             <li>Tech Stack :</li>
+              <li>🔹 Frontend: React.js, Next.js, JavaScript, TypeScript</li>
+              <li>🔹 Backend: .NET, C#, SQL, PostgreSQL, C++</li>
+              <li>🔹 DevOps & Cloud: Azure DevOps, CI/CD, Docker, Kubernetes,</li>
+             </ul>
               </p>
 
               <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
