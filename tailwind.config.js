@@ -24,7 +24,7 @@ module.exports = {
         600: "600px",
         685: "685px",
         800: "800px",
-        "90vh": "90vh",
+      "90vh": "90vh",
       },
       colors: {
         navBar: "#1d1e25",

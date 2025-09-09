@@ -47,7 +47,7 @@ function App() {
                 Contact
               </a>
               <a
-                href="https://drive.google.com/file/d/1oQ3_nYKlOZqX4g-wQuG-B8hqMaGDSyCn/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pIk_-kEYVxBexEZ_f_0uOLJhE3OG_gqi/view?usp=sharing"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
               >
                 Download
@@ -90,15 +90,15 @@ function App() {
                 >
                   Projects
                 </a>
-                <a
+                <aa
                   href="#contacts"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
                   Contact
-                </a>
+                </aa>
                 <a
-                  href="https://drive.google.com/file/d/1oQ3_nYKlOZqX4g-wQuG-B8hqMaGDSyCn/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1pIk_-kEYVxBexEZ_f_0uOLJhE3OG_gqi/view?usp=sharing"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
                   onClick={() => setIsActive(false)}
                 >
@@ -120,42 +120,38 @@ function App() {
 
         <main className="w-[80%] mt-4">
           <section
-            className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24"
-            id="about"
-          >
-            <div className="w-full h-420 flex items-center justify-center">
-              <div className="w-275 h-340 relative bg-emerald-200 rounded-md">
-                <img
-                  src={DP}
-                  alt=""
-                  className="w-full h-full absolute -right-4 top-4 object-cover rounded-lg drop-shadow-2xl"
-                />
+              className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 items-center my-24"
+              id="about"
+            >
+              {/* Image */}
+              <div className="flex justify-center">
+                <div className="w-[280px] md:w-[300px] lg:w-[320px] aspect-[3/4] relative bg-emerald-200 rounded-md shadow-md">
+                  <img
+                    src={DP}
+                    alt="Profile"
+                    className="w-full h-full object-cover absolute -right-4 top-4 rounded-lg drop-shadow-2xl"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="w-full h-420 flex flex-col items-center justify-center ">
-              <p className="text-lg text-textBase text-center">
-              Hi! I am Nishant Chauhan, a Software Engineer with 1+ years of experience in full-stack development, 
-              DevOps, and cloud infrastructure. I specialize in designing and optimizing scalable web applications, 
-              microservices, and system integrations to enhance performance, security, and maintainability.
-              I have hands-on experience with CI/CD pipelines, cloud deployments, API development, and database 
-              optimization, ensuring seamless software delivery and high availability. Skilled in frontend and
-              backend development, I build responsive user interfaces, efficient backend services, and automated 
-              workflows to improve system efficiency.
-             <ul> 
-             <li>Tech Stack :</li>
-              <li>🔹 Frontend: React.js, Next.js, JavaScript, TypeScript</li>
-              <li>🔹 Backend: .NET, C#, SQL, PostgreSQL, C++</li>
-              <li>🔹 DevOps & Cloud: Azure DevOps, CI/CD, Docker, Kubernetes,</li>
-             </ul>
-              </p>
 
-              {/* <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
-                <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                  Download
-                </span>
-              </button> */}
-            </div>
-          </section>
+              {/* Text */}
+              <div className="text-textBase text-sm sm:text-base leading-relaxed px-4 md:px-0">
+                <p>
+                  Hi! I am <strong>Nishant Chauhan</strong>, a Software Engineer with 1+ years of experience in full-stack development, DevOps, and cloud infrastructure. I specialize in designing and optimizing scalable web applications, microservices, and system integrations to enhance performance, security, and maintainability.
+                </p>
+                <br />
+                <p>
+                  I have hands-on experience with CI/CD pipelines, cloud deployments, API development, and database optimization, ensuring seamless software delivery and high availability. Skilled in frontend and backend development, I build responsive user interfaces, efficient backend services, and automated workflows to improve system efficiency.
+                </p>
+
+                <ul className="mt-4 list-disc pl-5">
+                  <li><strong>Tech Stack:</strong></li>
+                  <li>🔹 Frontend: React.js, Next.js, JavaScript, TypeScript</li>
+                  <li>🔹 Backend: .NET, C#, SQL, PostgreSQL, C++</li>
+                  <li>🔹 DevOps & Cloud: Azure DevOps, CI/CD, Docker, Kubernetes</li>
+              </ul>
+              </div>
+            </section>
 
           <section className="w-full flex items-center justify-center">
             <VerticalTimeline>

@@ -88,7 +88,7 @@ export const SocialLinks = [
     id: 1,
     iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />,
     name: "GitHub",
-    link: "https://github.com/Iam-NishantChauhan",
+link: "https://github.com/Iam-NishantChauhan",
   },
   {
     id: 1,
@@ -96,7 +96,7 @@ export const SocialLinks = [
       <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer" />
     ),
     name: "Twitter",
-    link: "https://twitter.com/Iam_Nishant__",
+    link: "https://x.com/Iam_Nishanttt",
   },
   {
     id: 1,
